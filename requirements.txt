@@ -1,0 +1,10 @@
+numpy
+pandas
+scikit-learn
+faiss-cpu
+openai
+langchain
+langchain-community
+langchain-openai
+langchain_experimental
+streamlit

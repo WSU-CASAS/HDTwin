@@ -1,0 +1,49 @@
+name,diagnosis,age,sex,edu_years,shape_score_sd,shape_learning_rate,EMA_compliance,physical_activity_level,physical_activity_variance,distance_traveled_from_home,distance_traveled_variance,mental_sharpness_mean,mental_sharpness_variance
+Sloan,mild cognitive impairment,78,male,15,1,5,6,4,3,3,10,7,1
+Mel,healthy,62,female,18,2,2,9,4,3,3,10,8,2
+Dunne,mild cognitive impairment,65,male,18,2,2,9,5,3,4,10,4,0
+Reagan,mild cognitive impairment,63,female,13,1,2,8,4,3,3,2,4,2
+Zenon,healthy,66,male,13,1,2,6,5,3,1,10,4,1
+Jocelyn,mild cognitive impairment,79,female,14,3,2,10,4,3,4,10,6,2
+Damian,mild cognitive impairment,65,female,15,3,5,9,0,3,3,10,4,2
+Garland,mild cognitive impairment,70,male,15,3,2,9,4,3,1,10,4,2
+Louvain,mild cognitive impairment,78,male,15,2,5,6,1,0,3,2,7,3
+Arrian,mild cognitive impairment,72,female,18,1,2,9,5,1,5,2,4,2
+Courtney,healthy,64,male,15,1,3,10,4,3,5,10,4,1
+Chay,healthy,79,male,18,3,5,9,2,3,3,5,6,3
+Dusty,healthy,62,female,18,3,4,6,4,3,4,2,7,3
+Ember,mild cognitive impairment,79,male,18,3,2,9,3,0,3,2,4,0
+West,healthy,63,female,18,1,2,9,4,3,2,10,6,0
+Gerry,mild cognitive impairment,64,male,18,2,2,10,5,0,5,9,5,2
+Stacy,mild cognitive impairment,64,male,18,3,5,6,0,0,1,2,4,1
+Mo,mild cognitive impairment,66,female,18,2,2,6,4,3,1,10,4,3
+Moon,mild cognitive impairment,80,male,18,3,5,7,0,0,3,3,7,1
+Atherton,mild cognitive impairment,72,female,13,3,2,6,3,3,2,10,4,3
+Waverly,healthy,79,female,18,3,2,7,2,0,2,5,7,1
+Carman,mild cognitive impairment,62,male,13,3,5,9,5,3,2,7,4,2
+Day,healthy,61,male,18,3,3,9,1,3,3,2,7,2
+Infinity,healthy,76,male,16,1,5,6,4,3,4,10,8,2
+Yardley,healthy,76,male,18,2,4,9,5,3,4,8,4,2
+Ellery,healthy,66,male,18,2,5,6,4,3,5,7,8,2
+Jaimin,mild cognitive impairment,79,male,14,3,3,9,2,3,4,10,7,2
+Channon,healthy,78,female,17,1,4,9,4,3,4,10,5,2
+Zenas,healthy,62,female,18,1,2,6,4,3,4,10,5,0
+Stevie,mild cognitive impairment,78,male,16,3,2,6,3,0,4,2,8,1
+Cary,healthy,79,female,13,4,5,9,3,3,2,9,6,2
+Afton,mild cognitive impairment,75,male,18,3,5,9,3,3,5,2,6,2
+Daveney,healthy,80,female,18,3,4,9,0,2,5,2,4,1
+Dublin,mild cognitive impairment,62,male,18,3,5,10,4,3,4,10,5,0
+Lindy,mild cognitive impairment,72,male,18,1,3,9,1,3,1,10,8,3
+Texas,healthy,61,female,18,3,5,9,4,3,1,10,4,2
+Everly,mild cognitive impairment,78,female,18,3,3,9,5,3,1,10,5,3
+Kameron,healthy,64,male,14,3,5,9,4,3,4,2,7,1
+Lex,healthy,79,male,13,2,3,9,4,3,1,10,8,1
+Corby,healthy,63,male,15,1,5,9,4,3,1,5,8,1
+Britain,healthy,66,male,13,4,5,9,4,1,4,7,5,2
+Flannery,healthy,80,male,14,1,2,9,5,3,5,10,4,0
+Talyn,mild cognitive impairment,62,male,13,2,5,10,3,0,5,3,8,2
+Aly,mild cognitive impairment,78,female,15,3,2,6,4,3,1,4,6,1
+Dell,healthy,78,male,17,3,5,10,4,3,4,10,8,1
+Marlowe,healthy,78,male,18,3,2,6,5,3,2,6,6,2
+Kris,healthy,61,female,17,4,5,9,3,3,1,10,4,2
+Jaspen,mild cognitive impairment,75,female,13,3,2,6,2,3,4,9,4,1

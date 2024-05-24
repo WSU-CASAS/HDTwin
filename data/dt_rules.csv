@@ -1,0 +1,21 @@
+rule,terms,features,class,prob,num_samples,exp_label,wrapper_best
+if sex = male and age <= 79.5 then more likely mild cognitive impairment,"['sex = male', 'age <= 79.5']","['sex', 'age']",mild cognitive impairment,77.78,9,demo,FALSE
+if shape_score_sd <= 2.5 then more likely healthy,['shape_score_sd <= 2.5'],['shape_score_sd'],healthy,60.61,33,nback,TRUE
+if shape_score_sd > 2.5 then more likely mild cognitive impairment,['shape_score_sd > 2.5'],['shape_score_sd'],mild cognitive impairment,70.59,17,nback,TRUE
+if shape_score_sd > 2.5 and shape_learning_rate > 1.5 then more likely mild cognitive impairment,"['shape_score_sd > 2.5', 'shape_learning_rate > 1.5']","['shape_score_sd', 'shape_learning_rate']",mild cognitive impairment,75,16,nback,TRUE
+if physical_activity_variance > 0.5 then more likely healthy,['physical_activity_variance > 0.5'],['physical_activity_variance'],healthy,57.5,40,watchstats,FALSE
+if distance_traveled_variance <= 8.0 then more likely mild cognitive impairment,['distance_traveled_variance <= 8.0'],['distance_traveled_variance'],mild cognitive impairment,60.61,33,watchstats,TRUE
+if distance_traveled_variance > 8.0 then more likely healthy,['distance_traveled_variance > 8.0'],['distance_traveled_variance'],healthy,80,15,watchstats,TRUE
+if distance_traveled_variance > 8.0 and physical_activity_level <= 5.5 then more likely healthy,"['distance_traveled_variance > 8.0', 'physical_activity_level <= 5.5']","['distance_traveled_variance', 'physical_activity_level']",healthy,91.67,12,watchstats,FALSE
+if physical_activity_variance <= 0.5 then more likely mild cognitive impairment,['physical_activity_variance <= 0.5'],['physical_activity_variance'],mild cognitive impairment,75,8,watchstats,FALSE
+if physical_activity_level <= 1.5 and EMA_compliance <= 9.5 then more likely mild cognitive impairment,"['physical_activity_level <= 1.5', 'EMA_compliance <= 9.5']","['physical_activity_level', 'EMA_compliance']",mild cognitive impairment,85.71,7,watchstats,FALSE
+if distance_traveled_from_home > 4.5 then more likely healthy,['distance_traveled_from_home > 4.5'],['distance_traveled_from_home'],healthy,100,6,watchstats,TRUE
+if mental_sharpness_mean > 4.5 then more likely healthy,['mental_sharpness_mean > 4.5'],['mental_sharpness_mean'],healthy,56.1,41,ema,FALSE
+if mental_sharpness_variance <= 2.5 then more likely healthy,['mental_sharpness_variance <= 2.5'],['mental_sharpness_variance'],healthy,57.5,40,ema,FALSE
+if mental_sharpness_variance > 2.5 then more likely mild cognitive impairment,['mental_sharpness_variance > 2.5'],['mental_sharpness_variance'],mild cognitive impairment,77.78,9,ema,FALSE
+if mental_sharpness_mean <= 4.5 then more likely mild cognitive impairment,['mental_sharpness_mean <= 4.5'],['mental_sharpness_mean'],mild cognitive impairment,75,8,ema,FALSE
+if mental_sharpness_variance > 2.5 and mental_sharpness_mean > 4.5 then more likely mild cognitive impairment,"['mental_sharpness_variance > 2.5', 'mental_sharpness_mean > 4.5']","['mental_sharpness_variance', 'mental_sharpness_mean']",mild cognitive impairment,83.33,6,ema,FALSE
+if mental_sharpness_variance <= 2.5 and mental_sharpness_mean <= 4.5 then more likely mild cognitive impairment,"['mental_sharpness_variance <= 2.5', 'mental_sharpness_mean <= 4.5']","['mental_sharpness_variance', 'mental_sharpness_mean']",mild cognitive impairment,80,5,ema,FALSE
+if mental_sharpness_mean > 5.5 and physical_activity_variance <= 8.0 then more likely healthy,"['mental_sharpness_mean > 5.5', 'physical_activity_variance <= 8.0']","['mental_sharpness_mean', 'physical_activity_variance']",healthy,79.17,24,nback+watchstats+ema,FALSE
+if shape_score_sd <= 2.5 and mental_sharpness_variance <= 2.5 then more likely healthy,"['shape_score_sd <= 2.5', 'mental_sharpness_variance <= 2.5']","['shape_score_sd', 'mental_sharpness_variance']",healthy,81.82,22,nback+watchstats+ema,FALSE
+if sex = female and shape_learning_rate <= 4.5 then more likely healthy,"['sex = female', 'shape_learning_rate <= 4.5']","['sex', 'shape_learning_rate']",healthy,76.47,17,demo+nback+watchstats+ema,FALSE

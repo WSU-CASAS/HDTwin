@@ -1,0 +1,77 @@
+diagnosis,age,sex,edu_years,shape_score_sd,shape_learning_rate,EMA_compliance,physical_activity_level,physical_activity_variance,distance_traveled_from_home,distance_traveled_variance,mental_sharpness_mean,mental_sharpness_variance
+healthy,66,male,16,1,2,,,4,,,,
+mild cognitive impairment,70,female,16,2,7,10,0,,,0,4,3
+mild cognitive impairment,61,female,19,3,2,8,3,7,,10,,
+mild cognitive impairment,74,female,19,3,3,,,4,,,,
+mild cognitive impairment,65,female,19,3,6,,,6,3,10,,1
+healthy,62,male,19,3,2,10,,,,,,
+mild cognitive impairment,80,female,19,4,3,10,,6,5,,,1
+mild cognitive impairment,56,male,14,0,4,10,,,,10,7,0
+healthy,80,female,14,3,2,10,5,1,,,,3
+healthy,74,male,19,3,6,,3,,,10,,
+mild cognitive impairment,80,female,14,1,4,6,0,,,4,,
+mild cognitive impairment,74,female,16,4,2,,0,,,10,,
+mild cognitive impairment,65,male,20,3,7,,2,,4,7,5,1
+healthy,80,male,19,2,5,,,,,2,9,
+mild cognitive impairment,56,male,19,3,3,10,5,7,,,6,3
+mild cognitive impairment,67,male,19,3,6,6,6,6,,,4,2
+mild cognitive impairment,78,male,19,4,4,6,4,,3,,4,
+mild cognitive impairment,58,male,15,0,6,,,2,,10,6,
+mild cognitive impairment,57,female,14,3,7,6,,,5,1,,
+mild cognitive impairment,80,female,19,1,2,10,,,4,2,6,2
+mild cognitive impairment,58,female,17,2,2,10,1,,,8,4,
+healthy,72,male,19,3,2,,,3,,9,,3
+mild cognitive impairment,59,female,13,2,6,6,,6,,10,4,
+healthy,62,male,14,3,2,6,,4,,10,,3
+mild cognitive impairment,65,female,16,3,6,10,4,,,4,8,3
+healthy,80,female,16,3,6,10,,0,,7,,
+healthy,55,female,19,1,6,,,6,,10,,
+healthy,80,male,16,3,3,6,5,,2,10,,1
+healthy,60,female,13,3,2,,6,,,,,
+mild cognitive impairment,80,female,19,3,7,6,,,,2,,3
+mild cognitive impairment,75,female,19,3,2,,,,,2,,
+mild cognitive impairment,80,female,16,3,3,8,3,5,2,10,5,0
+mild cognitive impairment,58,female,19,3,2,,,,,10,,
+mild cognitive impairment,80,female,17,2,3,,6,5,,10,7,1
+healthy,80,female,13,3,2,7,,4,,6,5,
+healthy,55,male,19,3,7,10,,7,,,9,2
+mild cognitive impairment,63,female,17,3,6,,6,5,,10,,2
+healthy,60,female,13,4,7,,,,,10,9,3
+healthy,80,female,16,4,2,10,3,,,10,4,
+healthy,80,male,13,3,5,6,6,,4,7,,
+mild cognitive impairment,80,female,13,4,7,10,1,7,5,9,4,
+healthy,80,female,20,3,5,,,4,5,10,8,
+healthy,80,male,19,3,7,,6,1,2,,4,
+mild cognitive impairment,64,female,19,1,2,6,0,0,5,10,4,2
+healthy,66,male,19,1,5,8,,0,2,8,4,
+healthy,72,female,13,1,5,,,3,,,,
+healthy,59,female,19,0,4,10,,5,,,,
+healthy,59,male,19,3,4,10,,,4,5,4,1
+healthy,59,male,20,3,5,,,6,,10,5,3
+healthy,58,female,19,0,3,10,6,1,,,4,
+mild cognitive impairment,80,female,19,1,6,6,5,,,10,9,0
+healthy,80,male,14,3,2,10,6,,1,,6,
+mild cognitive impairment,59,female,19,1,2,,,4,5,10,7,3
+mild cognitive impairment,59,male,18,4,5,,,,,10,8,
+mild cognitive impairment,80,male,19,3,3,,5,1,,6,7,
+mild cognitive impairment,58,male,20,3,2,,,6,,10,4,
+mild cognitive impairment,80,male,13,1,2,10,2,3,,,,
+healthy,56,male,19,2,6,,,,,5,6,
+mild cognitive impairment,71,female,19,3,2,10,5,3,,10,,
+healthy,80,male,19,4,7,,2,,5,5,5,3
+mild cognitive impairment,80,male,19,3,2,10,,,4,,4,1
+mild cognitive impairment,80,female,19,3,6,7,3,1,,,,
+healthy,80,female,19,3,3,10,1,,5,8,9,3
+mild cognitive impairment,72,male,13,3,3,6,,5,,10,,2
+healthy,80,male,13,3,2,7,4,,,10,9,0
+mild cognitive impairment,69,female,19,3,3,,5,1,5,,6,1
+healthy,80,male,13,3,6,10,5,,,10,4,3
+mild cognitive impairment,80,male,16,4,4,,,4,1,10,9,3
+healthy,80,female,19,0,2,,5,,,7,4,1
+mild cognitive impairment,60,female,19,3,7,,,6,,,,3
+mild cognitive impairment,56,female,19,3,6,10,3,6,4,6,4,
+healthy,66,female,19,3,4,,2,7,,1,4,1
+mild cognitive impairment,75,female,17,4,6,,,,0,,4,
+healthy,60,female,19,3,2,10,0,,,10,,1
+healthy,80,female,17,2,2,,2,,0,4,4,3
+mild cognitive impairment,68,female,19,4,3,,3,,,,5,
